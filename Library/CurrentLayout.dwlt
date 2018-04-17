@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 50
+  controlID: 29
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 84
+  controlID: 74
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 83
+  controlID: 140
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -449,9 +449,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d03f0000
-    m_LastClickedID: 16336
-    m_ExpandedIDs: 86c2ffffcef0ffffd0f0ffff56f1ffff9efbffff0000000010290000be3f0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1692fcffec92fcff0894fcff2094fcffe0adfcffb4aefcffd0affcffe8affcff54effdff64f6fdff3ef7fdff5af8fdff72f8fdff1001feffea01feff0a03feff2603feff9c0cfeff6818feff4019feff601afeff7c1afeff5425feff2626feff4627feff6227feff38efffff30f1ffff9efbffff00000000e8290000e444000080d40000aedc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -470,7 +470,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - OverWorld
+  - GameScene
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -547,19 +547,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ROHEZU\Documents\UNITY PROJECTS\Super Mario Run
+  m_LastProjectPath: C:\Users\ROHEZU\Documents\UNITY PROJECTS\Super-Mario-Run
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: ac270000
-    m_LastClickedID: 10156
-    m_ExpandedIDs: 000000008a2700000e2800002c2800006c2800009029000000ca9a3bffffff7f
+    m_SelectedIDs: 02280000
+    m_LastClickedID: 10242
+    m_ExpandedIDs: 000000008a2700000e2800002c2800006c280000643d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -587,7 +587,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008a2700000e2800002c2800006c28000090290000
+    m_ExpandedIDs: 000000008a2700000e2800002c2800006c280000643d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,7 +639,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 180}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 204
 --- !u!114 &19
@@ -747,14 +747,14 @@ MonoBehaviour:
     height: 293
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 208953.56126330773
+  lastFramingTime: 5809.291142151559
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 339.04074, y: 61.668148, z: -6.4843445}
+    m_Target: {x: 112.54, y: -3, z: 0}
     speed: 2
-    m_Value: {x: 339.04074, y: 61.668148, z: -6.4843445}
+    m_Value: {x: 112.54, y: -3, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -778,13 +778,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.004182655, y: -0.04797612, z: -0.00020071374, w: -0.99883974}
+    m_Target: {x: 0.18328068, y: 0.564563, z: -0.130292, w: 0.79416686}
     speed: 2
-    m_Value: {x: 0.004182655, y: -0.04797612, z: -0.00020071374, w: -0.99883974}
+    m_Value: {x: 0.18328066, y: 0.5645629, z: -0.13029198, w: 0.79416674}
   m_Size:
-    m_Target: 386.17575
+    m_Target: 16.664183
     speed: 2
-    m_Value: 386.17575
+    m_Value: 16.664183
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -36,18 +36,24 @@ public class PlayController : MonoBehaviour {
     public static int levelCounter;
     public int currentLevel;
 
+
+  
+
     void Start() {
         isAlive = true;
         isWinner = false;
         myController = GetComponent<CharacterController>();
         myRotation = transform.rotation;
+        
     }
 
     // Update is called once per frame
     void FixedUpdate() {
+       
         myGravity();
         if(isWinner==false)
         {
+           
             Jump();
             ForwardMovement();
             SpeedApply();
@@ -58,6 +64,7 @@ public class PlayController : MonoBehaviour {
     }
     private void Update()
     {
+       
         if (Input.GetButtonUp("Fire1"))
         {
             hasJump = false;
